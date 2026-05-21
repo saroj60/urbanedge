@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Urban Edge Engineering | Civil Material Testing Laboratory</title>
+    <meta name="description" content="Official website of Urban Edge Engineering Services Pvt. Ltd. Leading civil & construction material testing laboratory in Janakpurdham, Dhanusha. Engineering Solutions. Reliable Results."/>
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-background": "#181c1b",
+                    "outline": "#72796e",
+                    "error-container": "#ffdad6",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#40553e",
+                    "on-secondary": "#ffffff",
+                    "surface-container-low": "#f1f4f1",
+                    "on-error": "#ffffff",
+                    "primary-fixed-dim": "#a1d494",
+                    "surface-container": "#ecefec",
+                    "on-secondary-fixed": "#0f2000",
+                    "surface-bright": "#f7faf7",
+                    "on-primary": "#ffffff",
+                    "surface-container-highest": "#e0e3e0",
+                    "outline-variant": "#c2c9bb",
+                    "inverse-surface": "#2d3130",
+                    "on-primary-container": "#9dd090",
+                    "secondary-container": "#aaf457",
+                    "tertiary-fixed-dim": "#b5cdb0",
+                    "inverse-on-surface": "#eef1ee",
+                    "primary": "#154212",
+                    "on-surface": "#181c1b",
+                    "error": "#ba1a1a",
+                    "on-primary-fixed-variant": "#23501e",
+                    "on-tertiary": "#ffffff",
+                    "surface-variant": "#e0e3e0",
+                    "surface": "#f7faf7",
+                    "on-surface-variant": "#42493e",
+                    "on-secondary-container": "#406e00",
+                    "on-tertiary-fixed": "#0c200d",
+                    "primary-container": "#2d5a27",
+                    "secondary": "#3d6a00",
+                    "on-primary-fixed": "#002201",
+                    "tertiary": "#293e28",
+                    "on-secondary-fixed-variant": "#2d5000",
+                    "secondary-fixed-dim": "#91da40",
+                    "primary-fixed": "#bcf0ae",
+                    "surface-dim": "#d8dbd8",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-primary": "#a1d494",
+                    "tertiary-fixed": "#d0e9cb",
+                    "secondary-fixed": "#acf75a",
+                    "on-tertiary-fixed-variant": "#374c36",
+                    "on-tertiary-container": "#b0c9ac",
+                    "surface-container-high": "#e6e9e6",
+                    "background": "#f7faf7",
+                    "surface-tint": "#3b6934"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "sm": "12px",
+                    "base": "8px",
+                    "margin": "32px",
+                    "xs": "4px",
+                    "md": "24px",
+                    "xl": "80px",
+                    "lg": "48px"
+            },
+            "fontFamily": {
+                    "body-sm": ["Hanken Grotesk"],
+                    "headline-lg-mobile": ["Hanken Grotesk"],
+                    "headline-lg": ["Hanken Grotesk"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "title-md": ["Hanken Grotesk"],
+                    "label-mono": ["JetBrains Mono"],
+                    "display-lg": ["Hanken Grotesk"]
+            },
+            "fontSize": {
+                    "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                    "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "title-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "label-mono": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .precision-edge {
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        }
+        .hex-clip {
+            clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-lg text-body-lg">
+<!-- TopAppBar -->
+<header class="bg-surface-container-lowest border-b border-outline-variant sticky top-0 z-50">
+    <div class="flex justify-between items-center w-full px-gutter h-20 max-w-7xl mx-auto">
+        <a href="index.html" class="flex items-center">
+            <img src="assets/logo.png" alt="Urban Edge Engineering Services Logo" class="h-12 md:h-14 object-contain" />
+        </a>
+        <nav class="hidden md:flex gap-lg items-center">
+            <a class="text-primary border-b-2 border-secondary font-bold pb-1" href="index.html">Home</a>
+            <a class="text-on-surface-variant font-medium pb-1 hover:text-secondary transition-colors duration-300" href="about.html">About Us</a>
+            <a class="text-on-surface-variant font-medium pb-1 hover:text-secondary transition-colors duration-300" href="services.html">Services</a>
+            <a class="text-on-surface-variant font-medium pb-1 hover:text-secondary transition-colors duration-300" href="facilities.html">Facilities &amp; QA</a>
+            <a class="text-on-surface-variant font-medium pb-1 hover:text-secondary transition-colors duration-300" href="contact.html">Contact</a>
+        </nav>
+        <button id="menu-btn" class="md:hidden text-primary">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+    </div>
+</header>
+
+<!-- Mobile Navigation Drawer -->
+<div id="mobile-menu" class="fixed inset-0 z-50 bg-black/50 hidden">
+    <div class="fixed top-0 right-0 w-64 h-full bg-surface-container p-md shadow-2xl flex flex-col gap-md">
+        <div class="flex justify-end">
+            <button id="close-menu" class="text-primary">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+        <nav class="flex flex-col gap-md">
+            <a class="text-primary font-bold py-2 border-b border-outline-variant" href="index.html">Home</a>
+            <a class="text-on-surface-variant font-medium py-2 border-b border-outline-variant" href="about.html">About Us</a>
+            <a class="text-on-surface-variant font-medium py-2 border-b border-outline-variant" href="services.html">Services</a>
+            <a class="text-on-surface-variant font-medium py-2 border-b border-outline-variant" href="facilities.html">Facilities &amp; QA</a>
+            <a class="text-on-surface-variant font-medium py-2 border-b border-outline-variant" href="contact.html">Contact</a>
+        </nav>
+    </div>
+</div>
+
+<main>
+    <!-- Hero Banner (Based on Cover Page) -->
+    <section class="relative bg-on-background min-h-[75vh] flex items-center overflow-hidden precision-edge">
+        <div class="absolute inset-0 opacity-35">
+            <img alt="Laboratory Technician" class="w-full h-full object-cover" src="assets/hero_lab_bg.png"/>
+        </div>
+        <div class="relative z-10 px-gutter max-w-7xl mx-auto w-full py-lg">
+            <div class="inline-block bg-primary-container border border-primary-fixed-dim px-4 py-2 mb-md">
+                <span class="font-label-mono text-label-mono text-primary-fixed uppercase tracking-widest">Reg No: 332361/080/081</span>
+            </div>
+            <div class="text-secondary-fixed text-title-md font-bold uppercase tracking-wider mb-xs">Urban Edge Engineering Services Pvt. Ltd.</div>
+            <h1 class="font-display-lg text-4xl md:text-6xl text-white max-w-3xl font-black leading-none">Engineering Solutions.<br/><span class="text-secondary-fixed">Reliable Results.</span></h1>
+            <p class="text-surface-variant text-body-lg md:text-title-md max-w-2xl mt-md">A trusted name in the field of construction material testing and engineering services, ensuring quality, strength, and safety of every project.</p>
+            <div class="flex flex-wrap gap-md mt-lg">
+                <a href="services.html" class="bg-primary-container text-white font-bold py-md px-xl hover:bg-secondary transition-all active:scale-95 flex items-center gap-sm">
+                    EXPLORE TESTING SERVICES
+                    <span class="material-symbols-outlined">analytics</span>
+                </a>
+                <a href="contact.html" class="bg-transparent text-white border-2 border-white hover:bg-white hover:text-on-background font-bold py-md px-xl transition-all flex items-center gap-sm">
+                    REQUEST QUOTATION
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Core Strengths Badge Strip -->
+    <section class="max-w-7xl mx-auto px-gutter -mt-8 relative z-20">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-md">
+            <div class="bg-surface-container-lowest border border-outline-variant p-md flex flex-col items-center text-center">
+                <div class="w-12 h-12 bg-primary-fixed flex items-center justify-center rounded-none mb-sm">
+                    <span class="material-symbols-outlined text-primary font-bold">verified</span>
+                </div>
+                <h3 class="font-title-md font-bold text-primary">Accurate Testing</h3>
+                <p class="text-body-sm text-on-surface-variant mt-xs">Strict protocol adherence</p>
+            </div>
+            <div class="bg-surface-container-lowest border border-outline-variant p-md flex flex-col items-center text-center">
+                <div class="w-12 h-12 bg-primary-fixed flex items-center justify-center rounded-none mb-sm">
+                    <span class="material-symbols-outlined text-primary font-bold">precision_manufacturing</span>
+                </div>
+                <h3 class="font-title-md font-bold text-primary">Advanced Equipment</h3>
+                <p class="text-body-sm text-on-surface-variant mt-xs">Modern calibrated machinery</p>
+            </div>
+            <div class="bg-surface-container-lowest border border-outline-variant p-md flex flex-col items-center text-center">
+                <div class="w-12 h-12 bg-primary-fixed flex items-center justify-center rounded-none mb-sm">
+                    <span class="material-symbols-outlined text-primary font-bold">groups</span>
+                </div>
+                <h3 class="font-title-md font-bold text-primary">Expert Team</h3>
+                <p class="text-body-sm text-on-surface-variant mt-xs">Experienced professionals</p>
+            </div>
+            <div class="bg-surface-container-lowest border border-outline-variant p-md flex flex-col items-center text-center">
+                <div class="w-12 h-12 bg-primary-fixed flex items-center justify-center rounded-none mb-sm">
+                    <span class="material-symbols-outlined text-primary font-bold">gavel</span>
+                </div>
+                <h3 class="font-title-md font-bold text-primary">Quality Assurance</h3>
+                <p class="text-body-sm text-on-surface-variant mt-xs">Certified excellence standards</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Summary (Based on Page 1 / Page 2 About) -->
+    <section class="max-w-7xl mx-auto px-gutter py-xl">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-lg items-center">
+            <!-- Left Side Images (Hex Grid) -->
+            <div class="lg:col-span-5 grid grid-cols-2 gap-sm relative">
+                <div class="space-y-sm">
+                    <div class="border border-outline-variant p-2 bg-white">
+                        <img alt="Concrete Core Testing" class="w-full h-40 object-cover" src="assets/equipment_compression.png"/>
+                    </div>
+                    <div class="border border-outline-variant p-2 bg-white">
+                        <img alt="Steel Testing" class="w-full h-48 object-cover" src="assets/equipment_utm.png"/>
+                    </div>
+                </div>
+                <div class="space-y-sm pt-8">
+                    <div class="border border-outline-variant p-2 bg-white">
+                        <img alt="Soil Testing Apparatus" class="w-full h-48 object-cover" src="assets/equipment_soil.png"/>
+                    </div>
+                    <div class="border border-outline-variant p-2 bg-white">
+                        <img alt="Road Asphalt Roller" class="w-full h-40 object-cover" src="assets/equipment_asphalt.png"/>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Side Content -->
+            <div class="lg:col-span-7 space-y-md">
+                <div class="text-primary font-bold text-title-md flex items-center gap-xs">
+                    <span class="h-1 w-8 bg-secondary"></span> COMPANY OVERVIEW
+                </div>
+                <h2 class="font-headline-lg text-4xl text-primary font-black">Trusted Civil Engineering &amp; Material Testing Laboratory</h2>
+                <p class="text-on-surface-variant text-body-lg">
+                    Based in **Janakpurdham, Dhanusha**, Urban Edge Engineering Services Pvt. Ltd. is a leading laboratory providing accurate quality testing, construction material analysis, and engineering consultancy.
+                </p>
+                <p class="text-on-surface-variant text-body-lg">
+                    We support construction safety, structural durability, and standard compliance by employing state-of-the-art laboratory testing machines and a certified, highly skilled team.
+                </p>
+                <div class="grid grid-cols-2 gap-md pt-sm">
+                    <div class="flex items-center gap-sm">
+                        <span class="material-symbols-outlined text-secondary font-bold">check_circle</span>
+                        <span class="font-bold text-primary">ISO Standards Compliant</span>
+                    </div>
+                    <div class="flex items-center gap-sm">
+                        <span class="material-symbols-outlined text-secondary font-bold">check_circle</span>
+                        <span class="font-bold text-primary">Calibrated Lab Equipment</span>
+                    </div>
+                    <div class="flex items-center gap-sm">
+                        <span class="material-symbols-outlined text-secondary font-bold">check_circle</span>
+                        <span class="font-bold text-primary">Accurate Lab Reports</span>
+                    </div>
+                    <div class="flex items-center gap-sm">
+                        <span class="material-symbols-outlined text-secondary font-bold">check_circle</span>
+                        <span class="font-bold text-primary">Experienced Engineers</span>
+                    </div>
+                </div>
+                <div class="pt-md">
+                    <a href="about.html" class="inline-block bg-primary text-white font-bold py-sm px-lg hover:bg-secondary transition-all">
+                        LEARN MORE ABOUT US
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Ribbon (Page 2 statistics) -->
+    <section class="bg-primary text-white py-lg border-y-4 border-secondary">
+        <div class="max-w-7xl mx-auto px-gutter grid grid-cols-2 md:grid-cols-4 gap-lg text-center">
+            <div>
+                <div class="font-display-lg text-secondary-fixed text-4xl md:text-5xl font-black">500+</div>
+                <p class="font-label-mono text-label-mono text-surface-variant mt-xs uppercase">Tests Completed</p>
+                <p class="text-body-sm opacity-75">Across major infrastructure projects</p>
+            </div>
+            <div>
+                <div class="font-display-lg text-secondary-fixed text-4xl md:text-5xl font-black">100+</div>
+                <p class="font-label-mono text-label-mono text-surface-variant mt-xs uppercase">Clients Served</p>
+                <p class="text-body-sm opacity-75">Contractors, developers &amp; government</p>
+            </div>
+            <div>
+                <div class="font-display-lg text-secondary-fixed text-3xl md:text-4xl font-black mt-1">ADVANCED</div>
+                <p class="font-label-mono text-label-mono text-surface-variant mt-xs uppercase">Lab Equipment</p>
+                <p class="text-body-sm opacity-75">Calibrated &amp; modern machinery</p>
+            </div>
+            <div>
+                <div class="font-display-lg text-secondary-fixed text-3xl md:text-4xl font-black mt-1">CERTIFIED</div>
+                <p class="font-label-mono text-label-mono text-surface-variant mt-xs uppercase">Engineering Team</p>
+                <p class="text-body-sm opacity-75">Qualified &amp; highly experienced</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Overview (Page 1 List) -->
+    <section class="max-w-7xl mx-auto px-gutter py-xl">
+        <div class="text-center max-w-2xl mx-auto mb-lg">
+            <h2 class="font-headline-lg text-primary text-4xl mb-sm">Our Testing Services</h2>
+            <p class="text-on-surface-variant">We provide a wide range of engineering laboratory testing services using modern methodology to guarantee absolute structural integrity.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-md">
+            <!-- Soil Testing -->
+            <div class="bg-surface-container border border-outline-variant p-md flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+                <div>
+                    <div class="w-12 h-12 bg-primary-container text-white flex items-center justify-center mb-md">
+                        <span class="material-symbols-outlined">landscape</span>
+                    </div>
+                    <h3 class="font-title-md text-primary font-bold mb-xs">Soil Testing</h3>
+                    <p class="text-body-sm text-on-surface-variant">Bearing capacity, compaction tests, moisture content, and soil classifications for foundation stability.</p>
+                </div>
+                <a href="services.html#soil" class="text-secondary font-bold hover:text-primary flex items-center gap-xs mt-md">
+                    Explore Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                </a>
+            </div>
+            <!-- Concrete Testing -->
+            <div class="bg-surface-container border border-outline-variant p-md flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+                <div>
+                    <div class="w-12 h-12 bg-primary-container text-white flex items-center justify-center mb-md">
+                        <span class="material-symbols-outlined">rebase_edit</span>
+                    </div>
+                    <h3 class="font-title-md text-primary font-bold mb-xs">Concrete Testing</h3>
+                    <p class="text-body-sm text-on-surface-variant">Compressive strength, slump test, density analysis for fresh and hardened concrete specimens.</p>
+                </div>
+                <a href="services.html#concrete" class="text-secondary font-bold hover:text-primary flex items-center gap-xs mt-md">
+                    Explore Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                </a>
+            </div>
+            <!-- Asphalt & Road -->
+            <div class="bg-surface-container border border-outline-variant p-md flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+                <div>
+                    <div class="w-12 h-12 bg-primary-container text-white flex items-center justify-center mb-md">
+                        <span class="material-symbols-outlined">add_road</span>
+                    </div>
+                    <h3 class="font-title-md text-primary font-bold mb-xs">Asphalt Testing</h3>
+                    <p class="text-body-sm text-on-surface-variant">Marshall stability, bitumen content extraction, and design mix analysis for road durability.</p>
+                </div>
+                <a href="services.html#asphalt" class="text-secondary font-bold hover:text-primary flex items-center gap-xs mt-md">
+                    Explore Details <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                </a>
+            </div>
+        </div>
+        <div class="text-center mt-lg">
+            <a href="services.html" class="inline-block bg-transparent text-primary border-2 border-primary hover:bg-primary hover:text-white font-bold py-sm px-lg transition-all">
+                VIEW ALL 10+ TESTING SERVICES
+            </a>
+        </div>
+    </section>
+
+    <!-- Lab & QA Process Overview (Page 4 / 5 Process flowchart preview) -->
+    <section class="bg-surface-container-low py-xl border-t border-outline-variant">
+        <div class="max-w-7xl mx-auto px-gutter">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-lg items-center">
+                <div class="lg:col-span-6 space-y-md">
+                    <div class="text-secondary font-bold text-title-md">QUALITY CONTROL PROCESS</div>
+                    <h2 class="font-headline-lg text-primary text-4xl font-black">How We Ensure Accuracy</h2>
+                    <p class="text-on-surface-variant">We implement strict quality assurance protocols at every phase, from the initial site sample collection up to the final certified laboratory report.</p>
+                    
+                    <div class="space-y-sm pt-sm">
+                        <!-- Step 1 -->
+                        <div class="flex items-start gap-md">
+                            <div class="w-8 h-8 rounded-full bg-primary text-white font-bold flex items-center justify-center flex-shrink-0">1</div>
+                            <div>
+                                <h4 class="font-bold text-primary">Standardized Sample Collection</h4>
+                                <p class="text-body-sm text-on-surface-variant">Representative site sampling following strict ASTM/IS codes.</p>
+                            </div>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="flex items-start gap-md">
+                            <div class="w-8 h-8 rounded-full bg-primary text-white font-bold flex items-center justify-center flex-shrink-0">2</div>
+                            <div>
+                                <h4 class="font-bold text-primary">Advanced Laboratory Testing</h4>
+                                <p class="text-body-sm text-on-surface-variant">Testing on computerized, calibrated compression and universal machinery.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-md">
+                        <a href="facilities.html" class="text-primary font-bold hover:underline flex items-center gap-xs">
+                            View Detailed Quality Flow <span class="material-symbols-outlined">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-6">
+                    <div class="border border-outline-variant p-4 bg-white shadow-lg">
+                        <img alt="Lab Machine" class="w-full h-[320px] object-cover" src="assets/equipment_utm.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Call-To-Action -->
+    <section class="bg-primary text-white py-xl text-center">
+        <div class="max-w-3xl mx-auto px-gutter space-y-md">
+            <h2 class="font-display-lg text-3xl md:text-4xl font-black">Need Certified Testing for Your Project?</h2>
+            <p class="text-surface-variant text-body-lg">Contact our laboratory headquarters in Janakpurdham to request testing services, schedule core cutting, or download standard brochures.</p>
+            <div class="flex justify-center gap-md pt-md">
+                <a href="contact.html" class="bg-secondary-container text-on-secondary-fixed font-bold py-md px-xl hover:bg-secondary hover:text-white transition-all">
+                    GET IN TOUCH NOW
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-on-background border-t-4 border-primary text-white">
+    <div class="w-full px-gutter py-xl flex flex-col md:flex-row justify-between items-start gap-lg max-w-7xl mx-auto">
+        <div class="flex flex-col gap-sm max-w-sm">
+            <div class="bg-white p-2 inline-block rounded-sm self-start mb-xs">
+                <img src="assets/logo.png" alt="Urban Edge Engineering Services Logo" class="h-9 md:h-10 object-contain" />
+            </div>
+            <p class="text-surface-variant font-body-sm">Leading the industry in technical material testing and engineering consultancy with absolute precision.</p>
+            <div class="flex gap-md mt-sm text-outline-variant">
+                <a href="#" target="_blank" class="hover:text-secondary-fixed transition-colors duration-300" aria-label="Facebook">
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
+                    </svg>
+                </a>
+                <a href="#" target="_blank" class="hover:text-secondary-fixed transition-colors duration-300" aria-label="Instagram">
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                    </svg>
+                </a>
+                <a href="#" target="_blank" class="hover:text-secondary-fixed transition-colors duration-300" aria-label="TikTok">
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.525.02c1.31-.03 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.06-2.89-.52-4.06-1.39-.77-.57-1.39-1.35-1.77-2.24-.04 2.12-.02 4.24-.04 6.36 0 1.58-.33 3.19-1.14 4.57-.86 1.45-2.27 2.52-3.87 2.92-1.89.49-3.98.24-5.69-.69C4.1 18.23 2.79 16.32 2.5 14.18c-.46-3.07 1.16-6.27 4.02-7.44.82-.34 1.7-.5 2.59-.51.02 1.49 0 2.99 0 4.48-.96.08-1.95.42-2.63 1.14-.81.82-.99 2.08-.62 3.16.33.99 1.18 1.76 2.18 2.05 1.25.36 2.69.04 3.63-.82.88-.79 1.25-2 1.21-3.17.03-4.63.01-9.26.02-13.89h.03z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-xl">
+            <div class="flex flex-col gap-sm">
+                <p class="font-label-mono text-label-mono text-outline-variant uppercase">Navigation</p>
+                <a class="text-secondary-fixed font-bold underline font-body-sm" href="index.html">Home</a>
+                <a class="text-surface-variant hover:text-secondary-fixed-dim transition-opacity font-body-sm" href="about.html">About Us</a>
+                <a class="text-surface-variant hover:text-secondary-fixed-dim transition-opacity font-body-sm" href="services.html">Services</a>
+                <a class="text-surface-variant hover:text-secondary-fixed-dim transition-opacity font-body-sm" href="facilities.html">Facilities &amp; QA</a>
+                <a class="text-surface-variant hover:text-secondary-fixed-dim transition-opacity font-body-sm" href="contact.html">Contact</a>
+            </div>
+            <div class="flex flex-col gap-sm">
+                <p class="font-label-mono text-label-mono text-outline-variant uppercase">Resources</p>
+                <a class="text-surface-variant hover:text-secondary-fixed-dim transition-opacity font-body-sm" href="#">Privacy Policy</a>
+                <a class="text-surface-variant hover:text-secondary-fixed-dim transition-opacity font-body-sm" href="#">Terms of Service</a>
+                <a class="text-surface-variant hover:text-secondary-fixed-dim transition-opacity font-body-sm" href="#">ISO Certifications</a>
+                <a class="text-surface-variant hover:text-secondary-fixed-dim transition-opacity font-body-sm" href="#">Client Portal</a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-sm md:items-end">
+            <p class="font-label-mono text-label-mono text-outline-variant uppercase">Operating Hours</p>
+            <p class="text-surface-variant font-body-sm">Sun - Fri: 9:00 AM - 6:00 PM</p>
+            <p class="text-surface-variant font-body-sm">Saturday: Closed</p>
+        </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-gutter py-md border-t border-outline/20">
+        <p class="text-surface-variant text-body-sm font-label-mono">© 2026 Urban Edge Engineering. Precision in Every Dimension. Reg No: 332361/080/081</p>
+    </div>
+</footer>
+
+<script>
+    // Mobile menu navigation drawer toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const closeMenu = document.getElementById('close-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (menuBtn && closeMenu && mobileMenu) {
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('hidden');
+        });
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    }
+</script>
+</body>
+</html>
